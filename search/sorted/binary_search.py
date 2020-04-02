@@ -9,7 +9,7 @@ def mid(L, R):
     return L + (R - L) // 2 # avoids overflow
 
 
-def simple_search(a, target):
+def search(a, target):
     if len(a) == 0:
         return -1
     
